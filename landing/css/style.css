@@ -1,0 +1,65 @@
+@import url(reset.css);
+
+body, footer {
+	font-family: ’Helvetica’, ’Arial’, sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	line-height: 57px;
+	color: #FFF;
+	background-color: #E5E000;
+}
+
+header .title {
+	padding: 80px;
+}
+
+header .bg{
+	height: 680px;
+	background-image: url(../img/memfis-bg.png);
+	background-size: cover;
+	background-position: center;
+}
+
+header nav {
+	font-size: 25px;
+	line-height: 29px;
+	font-style: normal;
+	text-transform: uppercase;
+	padding: 40px 80px;
+}
+
+header nav a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+main .about {
+	background-color: #FFF;
+	color: #000;
+	padding: 110px 80px;
+}
+
+footer{
+	display: flex;
+  	flex-direction: row;
+  	flex-wrap: nowrap;
+}
+
+footer .logo {
+	height: 64px;
+	width: 390px;
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 80px;
+}
+
+footer .copyright {
+	height: 64px;
+	width: 1240px;
+	padding: 80px;
+	text-align: right;
+}
+
+
+

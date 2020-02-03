@@ -1,0 +1,17 @@
+@font-face {
+	src: url(../font/Lato-Regular.ttf);
+	font-family: 'Lato';
+	font-weight: normal;
+}
+.heading h1 {
+	font-size: 50 px;
+	font-weight: normal;
+	font-style: italic;
+	font-family: 'Lato', serif;
+}
+.paragraph {
+	font-family: 'Lato', serif;
+}
+.paragraphTwo{
+	font-family: 'Lato', serif;
+}

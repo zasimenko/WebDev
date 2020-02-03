@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo&display=swap');
+
+.heading h1 {
+	font-size: 50 px;
+	font-weight: normal;
+	font-style: italic;
+	font-family: 'Roboto Slab', serif;
+}
+.paragraph {
+	font-family: 'PT Sans', sans-serif;
+}
+.paragraphTwo{
+	font-family: 'Arimo', sans-serif;
+}
