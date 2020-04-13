@@ -1,0 +1,6 @@
+@import url(reset.css);
+div{
+	width: 100px;
+	background-color: yellow;
+	padding-top: 20px;
+}
