@@ -42,7 +42,10 @@ main .about {
 
 footer{
 	padding: 80px;
+	text-align: right;
 
 }
 
-
+footer img {
+	float: left;
+}
