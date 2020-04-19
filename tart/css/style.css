@@ -1,0 +1,43 @@
+@import url(reset.css);
+
+header, footer {
+	background-color: #FE1A19;
+	color: #FFF;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-size: 20px;
+	line-height: 23px;
+	font-weight: bold;
+	padding:20px;
+}
+
+main {
+	padding: 25px 45px; /*50px-25px 70px-25px*/
+	font-size: 0;
+}
+
+main .column {
+	width: 400px;
+	height: 800px;
+	box-sizing: border-box;
+	border: 5px solid #E5E000;
+	border-radius: 30px;
+	font-family: 'Times New Roman', serif;
+	font-size: 20px;
+	line-height: 23px;
+	font-weight: normal;
+	display: inline-block;
+	padding: 33px;
+	margin: 25px;
+}
+
+main h3 {
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-size: 20px;
+	line-height: 23px;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+main ul {
+	margin-bottom: 23px; /*вероятно берем line-height*/
+}
