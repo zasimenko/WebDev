@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Boilerplate</title>
+	<meta charset="ut8-f">
+	<meta description="boilerplate code">
+	<meta keywords="boilerplate, test">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="page">
+		<form>
+			<div class="column one">
+				<fieldset class="personal">
+					<label for="fio">ФИО</label>
+					<input type="text" name="fio" placeholder="Иванов Иван">
+
+					<label for="email">E-mail</label>
+					<input type="email" name="email"placeholder="yo@example.com">
+
+					<label for="password">Пароль</label>
+					<input type="password" name="password">
+
+					<label for="date">Дата рождения</label>
+					<input type="date" name="date">
+				</fieldset>
+			</div>
+			<div class="column two">
+				<fieldset class="type">
+					<label for="client">Вы были здесь ранее?</label>
+					<input type="radio" name="client" value="yes"> <span>Да</span>
+					<input type="radio" name="client" value="no"> <span>Нет</span>
+
+					<label for="purpouse">Зачем вы мне пишете?</label>
+					<select name="purpose" id="">
+						<option value="private">Просто</option>
+						<option value="work">По работе</option>
+					</select>
+				</fieldset>
+
+				<fieldset class="message">
+					<label for="message">Ваше сообщение</label>
+					<textarea name="message" id="" cols="30" rows="3">Суть запроса</textarea>
+					<input type="checkbox" checked="true"><span>Согласен с правилами</span>
+					<input type="submit">
+				</fieldset>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

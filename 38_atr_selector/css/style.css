@@ -1,0 +1,8 @@
+@import url(reset.css);
+img [src="https://icocnews.ru/wp-content/uploads/2015/09/priroda.jpg"]{
+	width: 300px;
+}
+
+img [alt="leto"]{
+	width: 600px;
+}
